@@ -78,3 +78,19 @@ header nav .branding{
     border-color: var(--primary);
     color: var(--primary);
 }
+.nav i{
+    font-size: 2rem;
+    color: var(--primary);
+    display: none;
+}
+/* responcive in moblie device */
+
+@media (max-width:1024px) {
+    .nav-items, .right{
+        display: none;
+
+    }
+    .nav i{
+        display: block;
+    }
+}

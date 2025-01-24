@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link rel="shortcut icon" href="images/camera.png" type="image/x-icon">
 </head>
 <body class="quicksand-fonts">
     <header>
         <!-- navber -->
          <div class="container">
-        <nav class="flex items-center justify-between">
+        <nav id="main-nav" class="nav flex items-center justify-between">
             <div class="left flex items-center">
                 <div class="branding">
                     <img src="./images/logo.svg" alt="">
                 </div>
-               <div>
+               <div class="nav-items">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
@@ -27,6 +28,7 @@
             <div class="right">
                 <button class="btn btn-primary">Contact</button>
             </div>
+            <i class="fa-solid fa-bars"></i>
         </nav>
     </div>
     </header>
